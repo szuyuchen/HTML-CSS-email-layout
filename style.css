@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+
+table {
+  border-spacing: 0;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+.wrapper {
+  width: 100%;
+  table-layout: fixed;
+  background-color: #ccc;
+  padding-bottom: 60px;
+}
+
+.main {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px; /* recommended email template width to make sure content display properly */
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: #151515;
+}
+
+.two-columns {
+  text-align: center; /* content to be centered on mobile */
+  font-size: 0; /* remove inherent spacing around links */
+}
+
+.two-columns .column {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+/* make 2 columns sit next one another in line */
+
+.three-columns {
+  text-align: center;
+  font-size: 0;
+  padding: 15px 0 25px;
+}
+
+.three-columns .column {
+  width: 100%;
+  max-width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.three-columns .padding {
+  padding: 15px;
+}
+
+.three-columns .content {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 5px;
+}
+
+.two-columns.last {
+  padding: 10px 0;
+}
+
+.two-columns .padding {
+  padding: 10px;
+}
+
+.two-columns .content {
+  padding: 20px;
+  line-height: 25px;
+  text-align: left;
+}
