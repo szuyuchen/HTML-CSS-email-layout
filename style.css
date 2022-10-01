@@ -83,3 +83,12 @@ img {
   line-height: 25px;
   text-align: left;
 }
+
+.button-dark {
+  color: #fff;
+  font-weight: bold;
+  background-color: #151515;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+}
